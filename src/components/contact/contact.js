@@ -45,7 +45,7 @@ const contact = () => {
   <img src={photo1} alt="Background Image" style={{width:'400px', height:'450px', marginLeft:'250px', marginTop:'50px'}}/>
   <div class="overlay-card ">
     <h2 class="fw-bolder" >R & D</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p  >Malviya Innovation & Incubation Center ,MNIT, Jaipur, Rajasthan(3012017) </p><p  className=" text-success">+91 6377 650 430</p>
   </div>
 </div>
         </div>
@@ -54,7 +54,7 @@ const contact = () => {
   <img src={photo1} alt="Background Image" style={{width:'400px', height:'450px', marginLeft:'100px'}}/>
   <div class="card2 overlay-card">
     <h2 class="fw-bolder" style={{ opacity: "100%"}} >R & D</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Flat no.177, Second Floor Block C, South City 2, Gurugram, Haryana, IN(122018)</p>
   </div>
 </div>
           <div className="col-md-6" >
