@@ -1,0 +1,90 @@
+
+@media only screen and (max-width:320px){
+
+
+    
+}
+@media (min-width:321px) and (max-width: 768px) {
+    
+  
+}
+@media (min-width: 769px) and (max-width: 2560px){
+
+  .heading{
+    font-size:3.3em;
+  }
+  .content{
+    font-size:1.2em;
+  }
+  .subhead1{
+    font-size:3.3em;
+
+  }
+.subphoto{
+  border-radius:12px;
+}
+.subphoto{
+position:relative;
+z-index:54;
+}
+.subcard{
+z-index:50;
+}
+}
+
+
+
+  
+  @media screen and (max-width: 768px) {
+  
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay-card {
+    opacity: 50%;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border:1px solid black;
+    border-radius:12px;
+  }
+  .card2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(15%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border:1px solid black;
+    border-radius:12px;
+  }
+  
+  .overlay-card h2 {
+    font-size: 24px;
+    /* background: url(50%-transparent-white.png); */
+   
+    /* margin-bottom: 10px; */
+  }
+  
+  .overlay-card p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius:12px;
+
+  }
+  
