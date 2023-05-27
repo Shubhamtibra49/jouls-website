@@ -4,6 +4,7 @@ import Navbar from './components/header/Navbar';
 import Footer from './components/footer/footer';
 import Contact from './components/contact/contact';
 import About from './components/About/about'
+// import Model3 from './model3/Model3';
 
 import {
   BrowserRouter,
@@ -20,6 +21,7 @@ function App() {
       <Route path='/about' element ={<About/>}/>
     </Routes>
     <Footer/>
+    
     </BrowserRouter>
     
     </>
@@ -27,3 +29,5 @@ function App() {
 }
 
 export default App;
+
+

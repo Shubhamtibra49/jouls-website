@@ -24,7 +24,7 @@
     width: 0;
     height: 20px;
     transition: all 1s;
-    background: rgba(8,61,119);
+    background: rgb(34,131,17);
 }
 
 #model3 .member::before
@@ -36,7 +36,7 @@
     width: 0;
     height: 20px;
     transition: all 1s;
-    background: rgba(8,61,119);
+    background: rgb(34,131,17);
 }
 
 #model3 img
@@ -70,7 +70,7 @@
 #model3 .social-media
 {
     position: absolute;
-    background-color: rgba(8,61,119);
+    background-color: rgba(34,131,17);
     bottom: 0;
     left: 0;
     width: 100%;
@@ -98,14 +98,14 @@
 
 #model3 .member:hover
 {
-    background-color: rgba(8,61,119,0.2);
+    background-color: rgba(34,131,17,0.0);
     transform: scale(1.01);
 }
 
 #model3 .member:hover img
 {
     transform: scale(1.1);
-    border: 2px solid rgba(8,61,119);
+    border: 2px solid rgba(34,131,17);
 }
 
 #model3 .description .social-media svg:hover
