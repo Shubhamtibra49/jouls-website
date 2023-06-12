@@ -1,17 +1,17 @@
 import React from 'react';
-import logo from './jouls.png';
+import logo from './jouls3.png';
 import "./header.css"
 import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-white" >
-        <div className="container-fluid" >
+        <div className="container-fluid"   >
           <nav className="navbar bg-body-white">
             <div className="container">
-              <a className="navbar-brand" href="#">
-                <img src={logo} alt="Bootstrap" width="170" height="90 " />
-              </a>
+              <Link className="navbar-brand" to='/home'> 
+                <img src={logo} alt="Bootstrap" width="100" height="50 " />
+              </Link>
             </div>
           </nav>
           <button
@@ -93,9 +93,10 @@ const Navbar = () => {
                 placeholder="Search"
                 aria-label="Search"
               /> */}
-              <button className="btn btn-outline-success" type="submit">
+             
+              <Link to='/downloadapp' button className="btn btn-outline-success" type="submit">
                 Download App
-              </button>
+              </Link>
             </form>
           </div>
         </div>

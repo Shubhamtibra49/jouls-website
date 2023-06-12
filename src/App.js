@@ -3,8 +3,10 @@ import './App.css';
 import Navbar from './components/header/Navbar';
 import Footer from './components/footer/footer';
 import Contact from './components/contact/contact';
-import About from './components/About/about'
-// import Model3 from './model3/Model3';
+import About from './components/About/about';
+import Home from './components/home/home'
+import Downloadapp from './components/download app/downloadapp'
+// import jouls from './jouls.png';
 
 import {
   BrowserRouter,
@@ -17,6 +19,12 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
+      {/* <a href="/home"><img src={jouls} alt="" /></a> */}
+     {/*  */}
+     <Route path='/home' element={<Home/>}/>
+     <Route path='/Downloadapp' element ={<Downloadapp/>}/>
+     
+     {/* <Downloadapp></Downloadapp> */}
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/about' element ={<About/>}/>
     </Routes>
