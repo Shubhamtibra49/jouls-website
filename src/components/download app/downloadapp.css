@@ -14,19 +14,19 @@
   height: 100%;
 }
 .text{
-  color: #118615;
+  color: #000;
   font-size: 30px;
 }
 .bg {
   background-image: url("Group.png");
-  width: 1500px;
-  height: 1450px;
+  max-width: 1400px;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.asdf{
+/* .asdf{
   background-image:url(groupfs.png);
   height:300px;
-  width: 300px;
-}
+  width: 331px;
+} */

@@ -6,6 +6,7 @@ import Contact from './components/contact/contact';
 import About from './components/About/about';
 import Home from './components/home/home'
 import Downloadapp from './components/download app/downloadapp'
+import Blog from './components/blog/blog'
 // import jouls from './jouls.png';
 
 import {
@@ -27,6 +28,7 @@ function App() {
      {/* <Downloadapp></Downloadapp> */}
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/about' element ={<About/>}/>
+      <Route path='/Blogs' element ={<Blog/>}/>
     </Routes>
     <Footer/>
     

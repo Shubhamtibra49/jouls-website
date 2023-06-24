@@ -6,7 +6,7 @@ import mobile from './mobile2.png'
 // import front from './front.jpeg'
 const downloadapp = () => {
   return (
-    <div className="bg" >
+    <div className="container  bg" >
           <div class="row">
       <div class="col-md-6">
       <div className="container">
@@ -63,7 +63,7 @@ const downloadapp = () => {
 
     </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" style={{padding:'0px'}}>
     <div className="container">
     <div class="d-flex justify-content-center " style={{fontSize:"  14px", marginTop:"35px" }}>
      <img src={mobile} alt="Bootstrap" width="80%" height="auto"/>
@@ -73,6 +73,7 @@ const downloadapp = () => {
     </div>
     
     </div>
+    <div class='container'>
     <div class="row" style={{marginTop:"200px", marginBottom:"100px"}}>
       <div class="col-md-6">
       <div className="container">
@@ -86,7 +87,7 @@ const downloadapp = () => {
     <div className="container">
     
      
-     <div class="d-flex justify-content-left " style={{  fontWeight:"bold",fontSize:"40px",marginTop:'00px', marginLeft:'50px',marginBottom:'30px', color:'#000' }}>
+     <div class="d-flex justify-content-left " style={{  fontWeight:"bold",fontSize:"40px",marginTop:'00px', marginLeft:'20px',marginBottom:'30px', color:'#000' }}>
       
      <h1>Jouls Connect EV Charging App</h1>
      
@@ -94,7 +95,7 @@ const downloadapp = () => {
     {/* Enhance your charging experience with Jouls Connect mobile app */}
 
     </div>
-    <div class="d-flex justify-content-center " style={{  fontWeight:"bold",fontSize:"40px",marginTop:'30px', marginLeft:'20px',marginBottom:'40px', color:'#000' }}>
+    <div class="d-flex justify-content-center " style={{  fontWeight:"bold",fontSize:"40px",marginTop:'30px', marginLeft:'10px',marginBottom:'40px', color:'#000' }}>
       <p  style={{fontSize:"17px", fontWeight:'lighter'}}>Introducing Jouls Connect, the state-of-the-art EV charging app designed to provide a seamless user experience with its exceptional user interface. Jouls Connect offers a host of features and functionalities that make it an ideal companion for electric vehicle owners.</p>
     </div>
 
@@ -102,7 +103,7 @@ const downloadapp = () => {
     </div>
     </div>
     </div>
-    
+    </div>
     </div>
     
   )

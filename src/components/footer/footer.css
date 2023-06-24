@@ -17,6 +17,9 @@ footer {
     padding: 35px;
     box-sizing: border-box;
   }
+.row{
+  max-width: 1321px;
+}
   
   h3 {
     font-size: 16px;
