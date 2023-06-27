@@ -1,24 +1,25 @@
 import React from 'react'
 import './about.css'
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
-import img from './Group 1.png'
+import img from './group1.jpeg'
 import rrecl from './rrecl.jpeg'
 import msme from './msme.jpeg'
 import patentimage from './patentimage.jpeg'
 import prto from './prto.jpeg'
-import cover from './cover.png'
+import vector from './Vector.png'
 import mission from './mission.png'
+import techkriti from './techkriti.jpg'
 import Model3 from './Model3';
 const about = () => {
   return (
     <> 
 
-    <div className='container'>
-      <img src={img} style={{width:'100%', marginBottom:"100px", marginTop:"50px"}} alt="" />
+    <div >
+    <img src={img} style={{width:'100%', marginBottom:"100px", marginTop:"50px"}} alt="" />
     </div>
     <div className="container">
     <div class="d-flex justify-content-center" style={{fontSize:"  14px"}}>
-    <div class="p-2 flex-shrink-1 w-75 p-3 d-flex "style={{fontSize:"  16px"}}>Welcome to Joules, where we are dedicated to developing and innovating cutting-edge Eco-smart technology to promote sustainable living. Our primary focus is on designing and manufacturing highly efficient and optimized Electric Vehicle (EV) chargers specifically tailored for residential use. Through continuous innovation, our ultimate goal is to enhance the EV charging experience for our users while encouraging sustainable practices.
+    <div class="p-2  p-3 d-flex "style={{fontSize:"  16px"}}>Welcome to Joules, where we are dedicated to developing and innovating cutting-edge Eco-smart technology to promote sustainable living. Our primary focus is on designing and manufacturing highly efficient and optimized Electric Vehicle (EV) chargers specifically tailored for residential use. Through continuous innovation, our ultimate goal is to enhance the EV charging experience for our users while encouraging sustainable practices.
     
     </div>
         {/* <p></p> */}
@@ -26,7 +27,7 @@ const about = () => {
     </div>
      <div className="container">
     <div class="d-flex justify-content-center" style={{fontSize:"  14px"}}>
-    <div class="p-2 flex-shrink-1 w-75 p-3 d-flex "style={{fontSize:"  16px"}}>At our core, we are driven by a passion for creating innovative solutions that inspire individuals to embrace sustainability. We firmly believe that by providing a user-friendly and versatile EV charger, we can offer a sustainable lifestyle solution that aligns with our company's values.
+    <div class="p-2  p-3 d-flex "style={{fontSize:"  16px"}}>At our core, we are driven by a passion for creating innovative solutions that inspire individuals to embrace sustainability. We firmly believe that by providing a user-friendly and versatile EV charger, we can offer a sustainable lifestyle solution that aligns with our company's values.
     
     </div>
         {/* <p></p> */}
@@ -34,17 +35,18 @@ const about = () => {
     </div>
     <div className="container">
     <div class="d-flex justify-content-center" style={{fontSize:"  14px", marginBottom:"100px"}}>
-    <div class="p-2 flex-shrink-1 w-75 p-3 d-flex "style={{fontSize:"  16px"}}>Our technology is meticulously crafted to deliver an exceptional charging experience for EV users. Not only does our charger optimize energy usage, but it also collects valuable data that can be utilized by energy entities to establish a robust infrastructure for EV charging. By contributing to the development of such infrastructure, we aim to accelerate the transition to electric vehicles and drive positive change in the transportation sector.
+    <div class="p-2  p-3 d-flex "style={{fontSize:"  16px"}}>Our technology is meticulously crafted to deliver an exceptional charging experience for EV users. Not only does our charger optimize energy usage, but it also collects valuable data that can be utilized by energy entities to establish a robust infrastructure for EV charging. By contributing to the development of such infrastructure, we aim to accelerate the transition to electric vehicles and drive positive change in the transportation sector.
     
     </div>
         {/* <p></p> */}
     </div>
     
-    <img src={cover} alt="Bootstrap" width="100%" height="auto"/>
+    {/* <img src={cover} alt="Bootstrap" width="100%" height="auto"/> */}
 
 
     </div>
    
+    <div class="container" >
     <div className="container" style={{marginTop:"100px"}}>
     <div class="d-flex justify-content-center" style={{fontSize:"  14px"}}>
     <div class="p-2 flex-shrink-1 w-75 p-3 d-flex "style={{fontSize:"  50px",fontWeight:"bold"}}>Our Mission
@@ -58,11 +60,13 @@ const about = () => {
 
 
     </div>
+    
+    <div class="cont">
     <div class="row">
       <div class="col-md-6">
-      <div className="container">
+      <div className="container" style={{paddingLeft:'20px'}}>
     <div class="d-flex justify-content-center " style={{fontSize:"  14px"}}>
-    <div class="p-2 flex-shrink-1 w-75 p-3 d-flex "style={{fontSize:"  16px", marginTop:'80px'}}>Our mission is to make sustainable transportation a reality by offering efficient and optimized EV chargers. We're dedicated to speeding up the transition towards electric vehicles, making it easier for everyone to embrace greener transportation options. Through innovation and advanced technology, we strive to create a sustainable future for generations to come.
+    <div class="p-2   d-flex "style={{fontSize:"  18px", marginTop:'80px'}}>Our mission is to make sustainable transportation a reality by offering efficient and optimized EV chargers. We're dedicated to speeding up the transition towards electric vehicles, making it easier for everyone to embrace greener transportation options. Through innovation and advanced technology, we strive to create a sustainable future for generations to come.
     
     
     </div>
@@ -77,25 +81,23 @@ const about = () => {
       <div class="col-md-6">
     <div className="container">
     <div class="d-flex justify-content-center " style={{fontSize:"  14px"}}>
-     <img src={mission} alt="Bootstrap" width="383" height="299"/>
+     <img src={mission} alt="Bootstrap" width="auto" height="70%" style={{paddingTop:'10%'}}/>
     </div>
-    {/* <img src={mission} style={{width:'70%'}} alt="" /> */}
     </div>
     </div>
     
     </div>
-    <div class="row">
-      <div class="col-md-6">
+    <div class="row" >
+      <div class="col-md-3">
     <div className="container"  >
     <div class="d-flex  justify-content-center "></div>
-     <img src={mission} alt="Bootstrap" width="383" height="299" />
     </div>
-    {/* <img src={mssn} style={{width:'50%'}} alt="" /> */}
+ 
     </div>
-    <div class="col-md-6">
-    <div className="container" style={{height:'470px'}}>
+    <div class="col-md-9">
+    <div className="container" >
     <div class="d-flex justify-content-center " style={{fontSize:"  14px"}}>
-    <div class="p-2 flex-shrink-1 w-75 p-3 d-flex  "style={{fontSize:"  16px", marginTop:'80px'}}>
+    <div class="p-2  p-3 d-flex  "style={{fontSize:"  18px", marginTop:'50px'}}>
       
       
       Join us on this exciting journey as we shape the future of sustainable living through cutting-edge technology. Together, we can make a significant impact on the environment and inspire a sustainable mindset in individuals and communities around the world.
@@ -112,6 +114,9 @@ const about = () => {
 
     </div>
 
+    </div>
+
+    </div>
 
 
 
@@ -124,9 +129,7 @@ const about = () => {
 
 
 
-
-
-    <div className="container">
+    <div className="container" style={{paddingTop:'150px'}}>
     <div class="d-flex justify-content-center" style={{fontSize:"  14px"}}>
     <div class="p-2 flex-shrink-1 w-75 p-3 d-flex text-center"style={{fontSize:"  50px",fontWeight:"bold",
   }}>OUR JOURNEY...
@@ -229,7 +232,7 @@ const about = () => {
     <p>
     Second position in Pitch Premier League, Tech Kriti, IIT KANPUR. 
     </p>
-  
+    <img src={techkriti} alt="Bootstrap" width="320px" height="220" />
   </TimelineItem>
 </Timeline>
 <Model3/>

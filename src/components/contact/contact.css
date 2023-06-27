@@ -1,10 +1,230 @@
-@media only screen and (max-width:320px){
+@media only screen and  (max-width:320px){
+  .heading{
+    font-size: 2em;
+   margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .content{
+    font-size: 23px;
+  }
+
+  .trial{
+    font-size: 20px;
+    /* padding-left: 24px; */
+    margin-left: 30px;
+  }
+
+  .photo{
+    width: 245px;
+    height: 186px;
+    margin-left: 40px;
+  }
+
+  .springpic1{
+    display: none;
+  }
+
+  .subhead1{
+    font-size: 33px;
+    margin-left: 30px;
+
+  }
+  .bsdk{
+    display: none;
+  }
+  .bsdk1{
+    display: none;
+  }
+  .happy{
+    font-size: 30px;
+    margin-left: 34px;
+  }
+  .happy1{
+    margin-left: 11px;
+    margin-top: 20px;
+
+  }
+  .happy2{
+    margin-left: 7px;
+
+  }
+  .sad{
+    margin-left: 70px;
+
+  }
+  .sad1{
+    margin-left: 15px;
+
+  }
+
+  .overlay-card{
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .bheem{
+    width: 315px;
+  }
+  .dholu{
+    
+  }
+
+  .card3{
+    margin-left: 50px;
+    width: 79%;
+  }
+  .card4{
+    margin-left: 50px;
+    width: 79%;
+  }
+  .card5{
+    margin-left: 38px;
+    width: 84%;
+  }
+  .photo4{
+    display: none;
+  }
+  .photo5{
+    display: none;
+  }
+  .photo6{
+    display: none;
+  }
+  .photo7{
+    display: none;
+
+  }
+  .text6{
+    font-size: 33px;
+    margin-left: 33px;
+  }
+  .foxy9{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .button2{
+    margin-left: 70px;
+    margin-right: 0px;
+    display: none;
+
+  }
+  /* .bkl{
+    padding:0px 0px;
+    margin: 0px 0px;
+    width: 315px;
+
+  } */
+
+  /* .springpic{
+    width: 240px;
+    height: 185px;
+    margin-left: 35px; */
+
+
+
+
+
+
+
+  }
+  
 
 
     
-}
+
 @media (min-width:321px) and (max-width: 768px) {
+
+  .photo{
     
+    width: 245px;
+    height: 186px;
+    margin-left: 100px;
+
+  }
+
+  .springpic1{
+    
+    width: 200px;
+    height: 160px;
+    margin-left: 140px;
+    margin-top: 50px;
+  }
+  .bsdk{
+    display: none;
+  }
+  .bsdk1{
+    display: none;
+  }
+  
+  .heading{
+    font-size: 2em;
+   margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .content{
+    font-size: 23px;
+    margin-left: 40px;
+  }
+  .bheem{
+    margin-left: 30px;
+  }
+  .card4{
+    margin-left: 30px;
+  }
+  .card5{
+    width: 250px;
+    margin-left: 98px;
+  }
+
+  .subhead1{
+    font-size: 40px;
+    margin-left: 30px;
+  }
+  .happy{
+    margin-top: 80px;
+    margin-left: 90px;
+
+  }
+  .happy1{
+    margin-left: 75px;
+
+  }
+  .happy2{
+    margin-left: 72px;
+
+  }
+  .sad{
+    margin-left: 100px;
+
+  }
+  .sad1{
+    margin-left: 50px;
+
+  }
+  .teamchodu{
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  .photo4{
+    
+
+  }
+  .photo5{
+    
+  
+  }
+  .text6{
+    font-size: 30px;
+    margin-right: 0px;
+  }
+  .button2{
+    margin-left: 0px;
+  }
+  .bkl{
+    margin-left: 13px;
+  }
   
 }
 @media (min-width: 769px) and (max-width: 2560px){
@@ -16,9 +236,11 @@
     font-size:1.2em;
   }
   .subhead1{
-    font-size:3.3em;
+    font-size: 3.5rem;
+    margin-left: 70px;
 
   }
+  
 .subphoto{
   border-radius:12px;
 }
@@ -29,6 +251,134 @@ z-index:54;
 .subcard{
 z-index:50;
 }
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-card {
+  
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border:1px solid black;
+  border-radius:12px;
+}
+.card2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(25%, -50%);
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border:1px solid black;
+  border-radius:12px;
+}
+
+.overlay-card h2 {
+  font-size: 24px;
+  /* background: url(50%-transparent-white.png); */
+ 
+  /* margin-bottom: 10px; */
+}
+
+.overlay-card p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius:12px;
+
+}
+
+.card3{
+margin-left: 60px;
+width: 18rem;
+
+}
+
+.card4{
+margin-left: 60px;
+width: 18rem;
+}
+
+.card5{
+margin-left: 225px;
+padding: 10px;
+width: 18rem;
+height: 180px;
+}
+
+.springpic1{
+height: 300px;
+width: 400px; ;
+margin-left: 500px ;
+
+
+}
+
+.photo4{
+padding-left: 90px;
+
+}
+.photo5{
+padding-left: 160px;
+
+
+}
+
+.text6{
+  font-size: 60px;
+
+}
+
+.button2{
+
+
+}
+
+.photo6{
+
+
+}
+.photo7{
+
+}
+
+.button2{
+padding-left: 140px;
+
+}
+
+.trial{
+  font-size: 20px;
+  padding-left: 100px ;
+}
+
+.photo{
+  width:500px;
+ height:400px;
+  margin-Left:290px;
+}
+
+.teamchodu{
+  margin-top: 190px;
+}
+.foxy9{
+font-size:   1.25rem;
+}
+
+
 }
 
 
@@ -37,105 +387,3 @@ z-index:50;
   @media screen and (max-width: 768px) {
   
   }
-
-  .image-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .overlay-card {
-    
-    position: absolute;
-    top: 60%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    border:1px solid black;
-    border-radius:12px;
-  }
-  .card2 {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(25%, -50%);
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    border:1px solid black;
-    border-radius:12px;
-  }
-  
-  .overlay-card h2 {
-    font-size: 24px;
-    /* background: url(50%-transparent-white.png); */
-   
-    /* margin-bottom: 10px; */
-  }
-  
-  .overlay-card p {
-    font-size: 16px;
-    margin-bottom: 0;
-  }
-  
-  .image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius:12px;
-
-  }
-
-.card3{
-  margin-left: 60px;
-
-}
-
-.card4{
- margin-left: 60px;
-}
-  
-.card5{
- margin-left: 225px;
- padding: 10px;
- height: 180px;
-}
-
-.springpic1{
-  height: 300px;
-  
- 
-}
-
-.photo4{
-padding-left: 90px;
-
-}
-.photo5{
-  padding-left: 160px;
-  
-
-}
-
-.text6{
-  
-}
-
-.button2{
-  
-  
-}
-
-.photo6{
-  
-
-}
-.photo7{
-
-}
-
-.button2{
-  padding-left: 140px;
-
-}

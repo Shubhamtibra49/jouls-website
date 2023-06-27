@@ -20,7 +20,7 @@ const downloadapp = () => {
      
       <ul>
     <li>
-      <p class="text font-weight-light" style={{fontSize:"24px"}} >
+      <p class="text font-weight-light" >
       <FcFlashOn fontSize={'50px'} />
        Personalize your charger.
        </p>
