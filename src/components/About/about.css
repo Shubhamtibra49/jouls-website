@@ -136,7 +136,7 @@
     transform: translate(-50%, -50%);
     width: 379px; /* Adjust this as per your needs */
     height: 335px; /* Adjust this as per your needs */
-    background-image: url('jouls-website\src\components\About\Vector.png');
+    background-image: url('./Vector.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
