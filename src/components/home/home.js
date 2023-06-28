@@ -12,12 +12,12 @@ import { TbBatteryCharging2 } from "react-icons/tb";
  import { BiSupport } from "react-icons/bi";
  import groupm from "./groupm.png"
  import playstore from "./playstore.png"
- 
+ import qrcode from "./qrcode.png"
 
 function home() {
   return (
     <>
-    <div className="topbg" >
+    <div  className="topbg">
     {/* <video autoPlay loop muted className="topbg"><source src={hometop} type="video/mp4" /> </video> */}
 
 </div>
@@ -172,7 +172,7 @@ function home() {
                   </div>
                   </div>
                   </div>
-                  <div class="description">A step towards sustainable world, Charge you car with Solar power. EcoSpark is compatible for solar charging and can be easily installed with all solar panels.</div>
+                  <div class="description">A step towards sustainable world, Charge you car with Solar power. EcoSpark is compatible for solar charging and can be easily integrated with all solar panels.</div>
                   </div>
                   </hv-charging-benefit>
 
@@ -183,7 +183,7 @@ function home() {
 
 <div class='container  homebgdown'>
 <div class="row" style={{marginTop:"100px", marginBottom:"100px"}}>
-  <div class="col-md-6">
+  <div class="col-md-5">
   <div className="container">
   <div class="d-flex justify-content-center " style={{fontSize:"  14px", marginTop:"85px"}}>
   <img src={groupm} alt="Bootstrap" width="80%" height="auto"/>
@@ -191,7 +191,7 @@ function home() {
 </div>
 </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-7">
 <div className="container">
 
  
@@ -205,8 +205,12 @@ function home() {
 <div class="d-flex justify-content-center " style={{  fontWeight:"bold",fontSize:"40px",marginTop:'30px', marginLeft:'10px',marginBottom:'40px', color:'#000' }}>
   <p  style={{fontSize:"17px", fontWeight:'lighter'}}>Introducing Jouls Connect, the state-of-the-art EV charging app designed to provide a seamless user experience with its exceptional user interface. Jouls Connect offers a host of features and functionalities that make it an ideal companion for electric vehicle owners.</p>
 </div>
-<div class="d-flex justify-content-center ">
-  <img src={playstore} alt="" width="35%" height="35%" />
+<div class="row">
+  <img src={playstore} alt="" width="30%" height="25%" style={{marginTop:"30px"}} />
+  <img src={qrcode} alt="" width="25%" height="25%" />
+</div>
+<div >
+  
 </div>
 
 </div>
