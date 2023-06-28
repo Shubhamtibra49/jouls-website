@@ -9,49 +9,50 @@ import qrcode from "./qrcode.png"
 
 const downloadapp = () => {
   return (
-    <div className="container  bg" >
+    <div class="bg">
+    <div className="container  " >
           <div class="row">
       <div class="col-md-6">
       <div className="container">
-    <div class="d-flex justify-content-center " style={{  fontWeight:"bold",fontSize:"40px",marginTop:'50px', marginLeft:'100px',marginBottom:'40px', color:'#000' }}>
+    <div class="d-flex justify-content-center mainheading " >
    
-    {/* <div class="p-2 flex-shrink-1 w-75 p-3 d-flex "style={{fontSize:"  16px", marginTop:'80px'}}> */}
+    
      Enhance your charging experience with Jouls Connect mobile app
 
       </div>
-      <div class="d-flex justify-content-center " style={{fontSize:"  14px",marginTop:'20px', marginLeft:'70px',marginBottom:'40px', color:'#118615' }}>
+      <div class="textbox " >
      
       <ul>
     <li>
       <p class="text font-weight-light" >
-      <FcFlashOn fontSize={'50px'} />
+      <FcFlashOn class="thundericon" />
        Personalize your charger.
        </p>
        </li>
 
        <li>  <p  class="text font-weight-light">
-      <FcFlashOn  fontSize={'50px'} />
+      <FcFlashOn  class="thundericon" />
        Different charging modes available.
        </p>
        </li>
 
        <li>
        <p  class="text font-weight-light">
-      <FcFlashOn  fontSize={'50px'} />
+      <FcFlashOn  class="thundericon" />
        Check charging history and logs.
        </p>
        </li>
 
        <li>
        <p class="text font-weight-light">
-      <FcFlashOn  fontSize={'50px'} />
+      <FcFlashOn  class="thundericon" />
        Connect with multiple EV's.
        </p>
        </li>
 
        <li>
        <p class="text font-weight-light">
-      <FcFlashOn fontSize={'50px'} />
+      <FcFlashOn class="thundericon" />
        Resolve technical issues within app with single click.
        </p>
        </li>
@@ -109,7 +110,7 @@ const downloadapp = () => {
     </div>
     </div>
     </div>
-    
+    </div>
   )
 }
 

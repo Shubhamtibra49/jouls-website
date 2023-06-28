@@ -205,9 +205,9 @@ function home() {
 <div class="d-flex justify-content-center " style={{  fontWeight:"bold",fontSize:"40px",marginTop:'30px', marginLeft:'10px',marginBottom:'40px', color:'#000' }}>
   <p  style={{fontSize:"17px", fontWeight:'lighter'}}>Introducing Jouls Connect, the state-of-the-art EV charging app designed to provide a seamless user experience with its exceptional user interface. Jouls Connect offers a host of features and functionalities that make it an ideal companion for electric vehicle owners.</p>
 </div>
-<div class="row">
+<div  class="d-flex justify-content-around">
   <img src={playstore} alt="" width="30%" height="25%" style={{marginTop:"30px"}} />
-  <img src={qrcode} alt="" width="25%" height="25%" />
+  <img src={qrcode} alt="" width="22%" height="22%" />
 </div>
 <div >
   

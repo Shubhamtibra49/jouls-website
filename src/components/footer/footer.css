@@ -38,11 +38,16 @@ footer {
   
   .logo-container {
     text-align: center;
+   
   }
   
   .logo-container img {
-    width: 300px;
+    width: 100%;
     height: auto;
+  
+  }
+  .asdf{
+    margin-top: 40px;
   }
   
   .tagline {
@@ -117,5 +122,7 @@ footer {
     .text-left {
         text-align: center;
       }
+
+      
   }
 
