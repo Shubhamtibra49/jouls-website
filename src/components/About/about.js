@@ -15,11 +15,11 @@ const about = () => {
     <> 
 
     <div >
-    <img src={img} style={{width:'100%', marginBottom:"100px", marginTop:"50px"}} alt="" />
+    <img src={img} style={{width:'100%', marginBottom:"100px", marginTop:"0px"}} alt="" />
     </div>
     <div className="container">
     <div class="d-flex justify-content-center" style={{fontSize:"  14px"}}>
-    <div class="p-2  p-3 d-flex "style={{fontSize:"  16px"}}>Welcome to Joules, where we are dedicated to developing and innovating cutting-edge Eco-smart technology to promote sustainable living. Our primary focus is on designing and manufacturing highly efficient and optimized Electric Vehicle (EV) chargers specifically tailored for residential use. Through continuous innovation, our ultimate goal is to enhance the EV charging experience for our users while encouraging sustainable practices.
+    <div class="p-2  p-3 d-flex "style={{fontSize:"  16px"}}>Welcome to Jouls, where we are dedicated to developing and innovating cutting-edge Eco-smart technology to promote sustainable living. Our primary focus is on designing and manufacturing highly efficient and optimized Electric Vehicle (EV) chargers specifically tailored for residential use. Through continuous innovation, our ultimate goal is to enhance the EV charging experience for our users while encouraging sustainable practices.
     
     </div>
         {/* <p></p> */}
@@ -34,7 +34,7 @@ const about = () => {
     </div>
     </div>
     <div className="container">
-    <div class="d-flex justify-content-center" style={{fontSize:"  14px", marginBottom:"100px"}}>
+    <div class="d-flex justify-content-center" style={{fontSize:"  14px", marginBottom:"80px"}}>
     <div class="p-2  p-3 d-flex "style={{fontSize:"  16px"}}>Our technology is meticulously crafted to deliver an exceptional charging experience for EV users. Not only does our charger optimize energy usage, but it also collects valuable data that can be utilized by energy entities to establish a robust infrastructure for EV charging. By contributing to the development of such infrastructure, we aim to accelerate the transition to electric vehicles and drive positive change in the transportation sector.
     
     </div>
@@ -52,9 +52,9 @@ const about = () => {
     <div class="cont">
     <div class="row">
       <div class="col-md-6">
-      <div className="container" style={{marginTop:"100px"}}>
-    <div class="d-flex justify-content-center" style={{fontSize:"  14px"}}>
-    <div class="p-2 flex-shrink-1 w-75 p-3 d-flex "style={{fontSize:"  50px",fontWeight:"bold",marginLeft:'80px'}}>Our Mission
+      <div className="container" style={{marginTop:"40px"}}>
+    <div class="" style={{fontSize:"  14px"}}>
+    <div class="p-2  p-3  "style={{fontSize:"  50px",fontWeight:"bold",marginLeft:'0px'}}>Our Mission
     
     </div>
     
@@ -82,7 +82,7 @@ const about = () => {
       <div class="col-md-6">
     <div className="container">
     <div class="d-flex justify-content-center " style={{fontSize:"  14px"}}>
-     <img src={mission} alt="Bootstrap" width="100%" height="auto" style={{paddingTop:'25%'}}/>
+     <img src={mission} alt="Bootstrap" width="90%" height="auto" style={{paddingTop:'20%'}}/>
     </div>
     </div>
     </div>
@@ -130,9 +130,9 @@ const about = () => {
 
 
 
-    <div className="container" style={{paddingTop:'150px'}}>
-    <div class="d-flex justify-content-center" style={{fontSize:"  14px"}}>
-    <div class="p-2 flex-shrink-1 w-75 p-3 d-flex text-center"style={{fontSize:"  50px",fontWeight:"bold",
+    <div className="container" style={{paddingTop:'100px'}}>
+    <div class="" style={{fontSize:"  14px"}}>
+    <div class="p-2  p-3 d-flex text-center"style={{fontSize:"  50px",fontWeight:"bold",
   }}>Our Journey...
     
     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import './downloadapp.css';
 import { FcFlashOn } from "react-icons/fc";
 import groupm from './groupm.png'
-import mobile from './mobile2.png'
+import mobile from './finalmockup.png'
 import playstore from "./playstore.png"
 import qrcode from "./qrcode.png"
 
@@ -60,7 +60,6 @@ const downloadapp = () => {
 
     
   </div>   
-    {/* </div> */}
     
   
 

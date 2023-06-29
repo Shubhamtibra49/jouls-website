@@ -65,16 +65,16 @@ const Navbar = () => {
                   
                 </ul>
               </li>
-              <Link to='/Blogs' className="nav-item">
-                <a
+              <li className="nav-item">
+                <Link to='/Blogs'
                   className="nav-link active nav-item-text"
                   aria-current="page"
                   href="#"
                   style={{ color: 'green', textAlign: 'center' }}
                 >
                   Blogs
-                </a>
-              </Link>
+                </Link>
+              </li>
               <li className="nav-item">
                 <Link to='/contact'
                   className="nav-link active nav-item-text"
@@ -85,8 +85,9 @@ const Navbar = () => {
                   Contact Us
                 </Link>
               </li>
-            </ul>
-            <form className="d-flex" role="search">
+           
+              <li className='nav-item'>
+            <form className="d-flex justify-content-center " role="search">
               {/* <input
                 className="form-control me-2"
                 type="search"
@@ -98,6 +99,8 @@ const Navbar = () => {
                 Download App
               </Link>
             </form>
+            </li>
+            </ul>
           </div>
         </div>
       </nav>

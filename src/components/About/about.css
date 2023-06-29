@@ -131,7 +131,7 @@
   .cont::before {
     content: '';
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 7%;
     transform: translate(-50%, -50%);
     width: 379px; /* Adjust this as per your needs */

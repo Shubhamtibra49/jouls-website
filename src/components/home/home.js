@@ -1,6 +1,6 @@
 import React from 'react';
 import "./home.css"
-import threedvideo from "./esanimthree.mp4"
+import threedvideo from "./esanimt.mp4"
 import hometop from "./hometop.mp4"
 import Pdf from '../document/home.pdf';
 import {FaSolarPanel } from "react-icons/fa";
@@ -32,7 +32,7 @@ function home() {
       <div class="col-md-6">
     
     <div class="d-flex justify-content-center " style={{fontSize:"  14px"}}>
-    <div class="text-center flex-shrink-1 w-75 text-justify d-flex justify-content-center "style={{fontSize:"  22px", marginTop:'130px'}}>Eco spark is an efficient & optimised EV charger used for residential and commercial application. It is designed in a way to provide great user experience and maximize the benefits for the user.
+    <div class="text-align flex-shrink-1 w-75 d-flex  "style={{fontSize:"  22px", marginTop:'130px'}}>Eco spark is an efficient & optimised EV charger used for residential and commercial application. It is designed in a way to provide great user experience and maximize the benefits for the user.
     
     </div>
     </div>
@@ -44,21 +44,17 @@ function home() {
                 Brochure
               </a>
 
-              {/* <a href = {Pdf} target = "_blank" button className="btn custom-button btn-outline-success " type="submit" style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'90px'}}>
-               Specifications
-             </a> */}
+            
             </form>
     
   
-          
-
     </div>
     </div>
       
       <div class="col-md-6">
     <div className="container">
     <div class="d-flex justify-content-center " style={{marginTop:"20px",fontSize:"  14px"}}>
-     {/* <img src={slider} alt="Bootstrap" width="383" height="299"/> */}
+   
      <video autoPlay loop muted className="bg-vid"><source src={threedvideo} type="video/mp4" /> </video>
     </div>
     </div>

@@ -29,7 +29,7 @@
   .bg-vid { 
     /* position: fixed;  */
     max-width: 100%; 
-    height: 580px; 
+    height: auto; 
     object-fit: cover; 
     z-index: 0; 
   }
