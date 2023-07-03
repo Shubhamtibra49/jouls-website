@@ -1,188 +1,183 @@
-@media only screen and  (max-width:320px){
-  .heading{
-    font-size: 2em;
-   margin-right: 20px;
-    margin-top: 20px;
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  /* margin-right:125px; */
+
+}
+
+.image-container2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  /* margin-right:125px; */
+
+}
+
+@media only screen and (max-width:320px) {
+  .photo {
+
+    width: 250px;
+    height: 200px;
+    margin-left: 35px;
+
   }
 
-  .content{
-    font-size: 23px;
-  }
+  .springpic1 {
 
-  .trial{
-    font-size: 20px;
-    /* padding-left: 24px; */
-    margin-left: 30px;
-  }
-
-  .photo{
-    width: 245px;
-    height: 186px;
+    /* width: 200px;
+    height: 160px;
     margin-left: 40px;
-  }
-
-  .springpic1{
+    margin-top: 50px; */
     display: none;
   }
 
-  .subhead1{
-    font-size: 33px;
-    margin-left: 30px;
+  .overlay-card {
+
+    position: absolute;
+    top: 320%;
+    left: 45%;
+    transform: translate(-40%, -90%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #fff;
 
   }
-  .bsdk{
-    display: none;
-  }
-  .bsdk1{
-    display: none;
-  }
-  .happy{
-    font-size: 30px;
-    margin-left: 34px;
-  }
-  .happy1{
-    margin-left: 11px;
-    margin-top: 20px;
 
+  .card2 {
+    position: absolute;
+    top: 440%;
+    left: 45%;
+    transform: translate(-40%, -110%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Adjust the alpha value (0.5) to control transparency */
+    padding: 20px;
+    color: #fff;
   }
-  .happy2{
-    margin-left: 7px;
 
+  .image-container img {
+    margin-left: 15px;
   }
-  .sad{
-    margin-left: 70px;
 
-  }
-  .sad1{
+  .image-container2 img {
     margin-left: 15px;
 
   }
 
-  .overlay-card{
-    font-size: 20px;
-    margin-left: 40px;
-  }
-  .bheem{
-    width: 315px;
-  }
-  .dholu{
-    
+  .text6 {
+    font-size: 30px;
+    margin-left: 35px;
   }
 
-  .card3{
-    margin-left: 50px;
-    width: 79%;
+  .button2 {
+    padding-left: 80px;
   }
-  .card4{
-    margin-left: 50px;
-    width: 79%;
-  }
-  .card5{
-    margin-left: 38px;
-    width: 84%;
-  }
-  .photo4{
-    display: none;
-  }
-  .photo5{
-    display: none;
-  }
-  .photo6{
-    display: none;
-  }
-  .photo7{
-    display: none;
 
-  }
-  .text6{
-    font-size: 33px;
-    margin-left: 33px;
-  }
-  .foxy9{
-    font-size: 20px;
-    margin-left: 10px;
-  }
-  .button2{
-    margin-left: 70px;
-    margin-right: 0px;
-    display: none;
-
-  }
   /* .bkl{
-    padding:0px 0px;
-    margin: 0px 0px;
-    width: 315px;
-
-  } */
-
-  /* .springpic{
-    width: 240px;
-    height: 185px;
-    margin-left: 35px; */
-
-
-
-
-
-
-
+        margin-left: px;
+      } */
+  .photo6 {
+    display: none;
   }
-  
+
+  .bheem {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .card5 {
+    margin-left: 10px;
+    /* margin-right: 50px; */
+  }
+
+  .heading {
+    font-size: 1.5em;
+  }
+
+  .photo4 {
+    margin-top: 12px;
+  }
+}
 
 
-    
+
+
 
 @media (min-width:321px) and (max-width: 768px) {
 
-  .photo{
-    
-    width: 245px;
-    height: 186px;
-    margin-left: 100px;
+
+  .photo {
+
+    width: 340px;
+    height: 238px;
+    margin-left: 15px;
 
   }
 
-  .springpic1{
-    
-    width: 200px;
+  .springpic1 {
+
+    /* width: 200px;
     height: 160px;
     margin-left: 140px;
-    margin-top: 50px;
-  }
-  .bsdk{
+    margin-top: 50px; */
     display: none;
   }
-  .bsdk1{
+
+  .bsdk {
     display: none;
   }
-  
-  .heading{
-    font-size: 2em;
-   margin-right: 20px;
+
+  .bsdk1 {
+    display: none;
+  }
+
+  .heading {
+    font-size: 2.5em;
+    margin-right: 20px;
     margin-top: 20px;
     margin-left: 40px;
   }
 
-  .content{
+  .content {
     font-size: 23px;
     margin-left: 40px;
   }
-  .bheem{
-    margin-left: 30px;
-  }
-  .card4{
-    margin-left: 30px;
-  }
-  .card5{
-    width: 250px;
-    margin-left: 98px;
+
+  .bheem {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
-  .subhead1{
+  /* .card3{
+    margin-right:25px;
+  } */
+  /* .card4{
+    margin-right:250px;
+  } */
+  .card5 {
+    width: 250px;
+    margin-left: 65px;
+  }
+
+  .subhead1 {
     font-size: 40px;
     margin-left: 30px;
   }
-  .happy{
+
+  /* .happy{
     margin-top: 80px;
     margin-left: 90px;
 
@@ -194,196 +189,424 @@
   .happy2{
     margin-left: 72px;
 
+  } */
+  .overlay-card {
+
+    position: absolute;
+    top: 320%;
+    left: 45%;
+    transform: translate(-40%, -40%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #fff;
+
   }
-  .sad{
+
+  .card2 {
+    position: absolute;
+    top: 440%;
+    left: 45%;
+    transform: translate(-40%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Adjust the alpha value (0.5) to control transparency */
+    padding: 20px;
+    color: #fff;
+  }
+
+  /* .sad{
     margin-left: 100px;
 
   }
   .sad1{
     margin-left: 50px;
 
+  } */
+  .teamchodu {
+    margin-top: 30px;
+    /* margin-left: 10px; */
   }
-  .teamchodu{
-    margin-top: 40px;
-    margin-left: 50px;
-  }
-  .photo4{
-    
+
+  .photo6 {
+    display: none;
 
   }
-  .photo5{
-    
-  
+
+  .text6 {
+    font-size: 40px;
+    margin-left: 25px;
   }
-  .text6{
-    font-size: 30px;
-    margin-right: 0px;
+
+  .button2 {
+    padding-left: 80px;
   }
-  .button2{
-    margin-left: 0px;
-  }
-  .bkl{
+
+  .bkl {
     margin-left: 13px;
   }
-  
-}
-@media (min-width: 769px) and (max-width: 2560px){
 
-  .heading{
-    font-size:3.3em;
+  .image-container img {
+    margin-left: 15px;
   }
-  .content{
-    font-size:1.2em;
+
+  .image-container2 img {
+    margin-left: 15px;
+
   }
-  .subhead1{
-    font-size: 3.5rem;
+
+  .foxy9 {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .overlay-card {
+
+    position: absolute;
+    top: 320%;
+    left: 45%;
+    transform: translate(-40%, -270%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #fff;
+
+  }
+
+  .card2 {
+    position: absolute;
+    top: 440%;
+    left: 45%;
+    transform: translate(-40%, -300%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Adjust the alpha value (0.5) to control transparency */
+    padding: 20px;
+    color: #fff;
+  }
+
+  .text6 {
+    font-size: 28px;
+    margin-left: 5px;
+  }
+
+  .button2{
+    padding-left: 270px;
+  }
+  /* .bkl{
+    margin-left: 183px;
+  } */
+  .image-container img {
+    margin-left: 15px;
+  }
+
+  .image-container2 img {
+    margin-left: 15px;
+
+  }
+
+  .foxy9 {
+    font-size: 1.5em;
+  }
+
+  /* .photo5{
+    display: none;
+  } */
+  .photo7 {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  .heading {
+    font-size: 3.3em;
+  }
+
+  .content {
+    font-size: 1.2em;
+  }
+
+  .subhead1 {
+    font-size: 4.5rem;
     margin-left: 70px;
 
   }
-  
-.subphoto{
-  border-radius:12px;
-}
-.subphoto{
-position:relative;
-z-index:54;
-}
-.subcard{
-z-index:50;
-}
 
-.image-container {
-  position: relative;
-  display: inline-block;
-}
-
-.overlay-card {
-  
-  position: absolute;
-  top: 60%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-  border:1px solid black;
-  border-radius:12px;
-}
-.card2 {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(25%, -50%);
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-  border:1px solid black;
-  border-radius:12px;
-}
-
-.overlay-card h2 {
-  font-size: 24px;
-  /* background: url(50%-transparent-white.png); */
- 
-  /* margin-bottom: 10px; */
-}
-
-.overlay-card p {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-.image-container img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius:12px;
-
-}
-
-.card3{
-margin-left: 60px;
-width: 18rem;
-
-}
-
-.card4{
-margin-left: 60px;
-width: 18rem;
-}
-
-.card5{
-margin-left: 225px;
-padding: 10px;
-width: 18rem;
-height: 180px;
-}
-
-.springpic1{
-height: 300px;
-width: 400px; ;
-margin-left: 500px ;
-
-
-}
-
-.photo4{
-padding-left: 90px;
-
-}
-.photo5{
-padding-left: 160px;
-
-
-}
-
-.text6{
-  font-size: 60px;
-
-}
-
-.button2{
-
-
-}
-
-.photo6{
-
-
-}
-.photo7{
-
-}
-
-.button2{
-padding-left: 140px;
-
-}
-
-.trial{
-  font-size: 20px;
-  padding-left: 100px ;
-}
-
-.photo{
-  width:500px;
- height:400px;
-  margin-Left:290px;
-}
-
-.teamchodu{
-  margin-top: 190px;
-}
-.foxy9{
-font-size:   1.25rem;
-}
-
-
-}
-
-
-
-  
-  @media screen and (max-width: 768px) {
-  
+  .subphoto {
+    border-radius: 12px;
   }
+  .photo {
+    width: 350px;
+    height: 250px;
+    margin-Left: 140px;
+  }
+  .pic1{
+    padding-right: 25px;
+
+  }
+
+.springpic1 {
+    display: none;
+  }
+  /* .subphoto {
+    position: relative;
+    z-index: 54;
+  } */
+  .overlay-card {
+
+    position: absolute;
+    top: 340%;
+    left: 45%;
+    transform: translate(-40%, -270%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    content: "";
+   
+
+  }
+
+  .card2 {
+    position: absolute;
+    top: 450%;
+    left: 45%;
+    transform: translate(-40%, -300%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+   
+  }
+
+  .text6 {
+    font-size: 28px;
+    margin-left: 5px;
+  }
+  .teamchodu {
+    margin-top: 90px;
+  }
+
+  .button2{
+    padding-left: 400px;
+  }
+  /* .bkl{
+    margin-left: 183px;
+  } */
+  .image-container img {
+    width: 80%;
+  height: auto;
+    margin-left: 15px;
+  }
+  .image-container2 img {
+    width: 80%;
+  height: auto;
+    margin-left: 15px;
+  }
+
+  .image-container2 img {
+    margin-left: 15px;
+
+  }
+  .bheem {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .foxy9 {
+    font-size: 1.5em;
+  }
+
+  /* .photo5{
+    display: none;
+  } */
+  .photo7 {
+    display: none;
+  }
+  .subhead1{
+    font-size: 50px;
+  }
+
+
+}
+@media (min-width: 1025px) and (max-width: 2720px) {
+
+  .heading {
+    font-size: 3.3em;
+  }
+
+  .content {
+    font-size: 1.2em;
+  }
+
+  .subhead1 {
+    font-size: 4.5rem;
+    margin-left: 70px;
+
+  }
+
+  .subphoto {
+    border-radius: 12px;
+  }
+
+  .subphoto {
+    position: relative;
+    z-index: 54;
+  }
+
+  /* .subcard{
+z-index:50;
+} */
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-container2 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .overlay-card {
+
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-30%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+  }
+
+  .card2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(5%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+  }
+
+  .overlay-card h2 {
+    font-size: 24px;
+    /* background: url(50%-transparent-white.png); */
+
+    /* margin-bottom: 10px; */
+  }
+
+  .overlay-card p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .image-container img {
+    width: 350px;
+    margin-left: 350px;
+
+  }
+
+  .image-container2 img {
+    width: 350px;
+    margin-left: 100px;
+
+  }
+
+
+  .card3 {
+    margin-left: 60px;
+    width: 18rem;
+
+  }
+
+  .card4 {
+    margin-left: 60px;
+    width: 18rem;
+  }
+
+  .card5 {
+    margin-left: 225px;
+    padding: 10px;
+    width: 18rem;
+    height: 180px;
+  }
+
+  .springpic1 {
+    height: 300px;
+    width: 400px;
+    ;
+    margin-left: 500px;
+
+
+  }
+
+  .photo4 {
+    padding-left: 90px;
+
+  }
+
+  .photo5 {
+    padding-left: 160px;
+
+
+  }
+
+  .text6 {
+    font-size: 60px;
+
+  }
+
+
+
+  .button2 {
+    padding-left: 540px;
+
+  }
+
+  .trial {
+    font-size: 20px;
+    padding-left: 100px;
+  }
+
+  .photo {
+    width: 500px;
+    height: 400px;
+    margin-Left: 290px;
+  }
+
+  .teamchodu {
+    margin-top: 90px;
+  }
+
+  .foxy9 {
+    font-size: 1.25rem;
+  }
+
+
+}

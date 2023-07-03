@@ -5,7 +5,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 import { BsCircleHalf } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import pizza from './highway.jpeg';
-
+import './carousel.css'
 const Carousel = () => {
   const [activeCard, setActiveCard] = useState(0);
 
@@ -33,10 +33,10 @@ const Carousel = () => {
   return (
     <div
       id="carouselExample "
-      className="carousel slide  "
+      className=" container carousel  slide  "
       data-bs-ride="carousel"
     >
-      <div className="carousel-indicators">
+      <div className="carousel-indicators indicator"  >
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
@@ -65,7 +65,7 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className={`carousel-item   ${activeCard === 0 ? "active" : ""}`}>
-          <div class=" dsa shadow card " style={{ width: "40rem" }}>
+          <div class=" dsa shadow card " style={{ maxWidth: "40rem" }}>
            
             <img src={pizza} class="card-img-top" alt="..." />
             <div class=" card-body ">
@@ -77,16 +77,13 @@ const Carousel = () => {
               Zero-emissions goals and technology advancements drive automakers and consumers to accelerate the shift to EVs.
               </p>
               <a href="https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/sustainable-mobility">Read more</a>
-              {/* <p class="card-text d-flex justify-content-start ">
-                <BsCircleHalf fontSize={"30px"} />{" "}
-                <div className="container">aayush gupta </div>
-              </p> */}
+              
             </div>
           </div>
         </div>
         <div className="carousel-inner">
           <div className={`carousel-item ${activeCard === 1 ? "active" : ""}`}>
-            <div class=" dsa shadow card " style={{ width: "40rem" }}>
+            <div class=" dsa shadow card " style={{ maxWidth: "40rem" }}>
               <img src={photo8} class="card-img-top" alt="..." />
               <div class=" card-body ">
                 <h5 class="card-title d-flex justify-content-between">
@@ -106,7 +103,7 @@ const Carousel = () => {
           </div>
           <div className="carousel-inner">
           <div className={`carousel-item ${activeCard === 2 ? "active" : ""}`}>
-            <div class=" dsa shadow card " style={{ width: "40rem" }}>
+            <div class=" dsa shadow card " style={{ maxWidth: "40rem" }}>
               <img src={photo7} class="card-img-top" alt="..." />
               <div class=" card-body ">
                 <h5 class="card-title d-flex justify-content-between">

@@ -22,6 +22,7 @@ function App() {
     <Routes>
       {/* <a href="/home"><img src={jouls} alt="" /></a> */}
      {/*  */}
+     <Route path='/' element={<Home/>}/>
      <Route path='/home' element={<Home/>}/>
      <Route path='/Downloadapp' element ={<Downloadapp/>}/>
      

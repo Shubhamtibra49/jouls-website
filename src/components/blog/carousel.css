@@ -1,0 +1,19 @@
+.dsa{
+    height: 675px;
+    padding: 20px;
+    margin-top: 40px; 
+    margin-bottom: 30px;
+    border-radius: 10px;
+  
+    
+}
+.indicator{
+  margin:auto;
+  padding: auto;
+  
+}
+@media (max-width: 768px){
+  .dsa{
+    height: auto;
+  }
+}

@@ -18,10 +18,11 @@ function home() {
   return (
     <>
     <div  className="topbg">
-    {/* <video autoPlay loop muted className="topbg"><source src={hometop} type="video/mp4" /> </video> */}
+    <video autoPlay loop muted className="topbg"><source src={hometop} type="video/mp4" /> </video>
 
 </div>
 
+<div className="container ">
 <div class="row" style={{}}>
 <div className="container ">
     <div class="d-flex justify-content-center " style={{fontSize:"  14px"}}>
@@ -37,15 +38,45 @@ function home() {
     </div>
     </div>
       <div class="container" style={{}}>
-    <form className="d-flex" role="button" style={{ marginTop:'70px'}}>
+    <form className="d-flex justify-content-around" role="button" style={{ marginTop:'70px'}}>
              
     
-              <a href = {Pdf} target = "_blank" button className="btn btn-outline-success " type="submit" style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'120px'}}>
+              <a href = {Pdf} target = "_blank" button className="btn btn-outline-success " type="submit" style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'px'}}>
                 Brochure
               </a>
 
-            
+              {/* <a href = {Pdf} target = "_blank" button className="btn btn-outline-success " type="submit" style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'px'}}>
+                Specifications
+              </a> */}
+
+              
+<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModalCenter"   style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'px'}}>
+Specifications
+</button>
+
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Specifications</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <img src={groupm} alt="Bootstrap" width="100%" height="auto"/>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+
             </form>
+
+            
     
   
     </div>
@@ -61,18 +92,19 @@ function home() {
     </div>
     
     </div>
+    </div>
     <div class="container" style={{marginTop:'100px'}}>
       <p class="hd">What makes us better</p>
-    <div class=" row no-gutters asda">
+    <div class=" row no-gutters justify-content-between asda">
       
       
     <div class="col-md-6  align-self-start">
 
-    <hv-charging-benefit class="">
+    <jouls-better class="">
       <div class="charger-feature">
         <div class="row no-gutters">
           <div class="col-auto icon-wrapper">
-            <TfiMobile style={{fontSize:'70px',color:''}}> </TfiMobile>
+            <TfiMobile style={{fontSize:'px',color:''}}> </TfiMobile>
               </div>
               <div class="col-auto content">
                 <div class="split-headline">
@@ -84,48 +116,48 @@ function home() {
                   <div class="description">Connect EcoSpark through Jouls Connect App and control it remotely from anywhere in the world for seamless
                    experience at the ease of fingertips.</div>
                   </div>
-                  </hv-charging-benefit>
+                  </jouls-better>
 
-                  <hv-charging-benefit class="">
+                  <jouls-better class="">
       <div class="charger-feature">
         <div class="row no-gutters">
           <div class="col-auto icon-wrapper">
-            <TbBatteryCharging2 style={{fontSize:'70px'}}> </TbBatteryCharging2>
+            <TbBatteryCharging2 style={{fontSize:'px'}}> </TbBatteryCharging2>
               </div>
               <div class="col-auto content">
                 <div class="split-headline">
-                  <div class="top">Dynamic Load Management</div>
+                  <div class="top">Load Management</div>
                   <div class="bottom">With Balance Mode</div>
                   </div>
                   </div>
                   </div>
                   <div class="description">EcoSpark features advanced power management, automatically adjusting the output power to optimize performance without risk of tripping the electrical system or battery damage.</div></div>
-                  </hv-charging-benefit>
+                  </jouls-better>
 
-                  <hv-charging-benefit class="">
+                  <jouls-better class="">
       <div class="charger-feature">
         <div class="row no-gutters">
           <div class="col-auto icon-wrapper">
-            <BiSupport style={{fontSize:'80px'}}> </BiSupport>
+            <BiSupport style={{fontSize:'px'}}> </BiSupport>
               </div>
               <div class="col-auto content">
                 <div class="split-headline">
-                  <div class="top">Resolve All Issue Quickly With </div>
-                  <div class="bottom">10x Faster Tech Support</div>
+                  <div class="top">Resolve Issue Quickly With </div>
+                  <div class="bottom">10x Faster Support</div>
                   </div>
                   </div>
                   </div>
                   <div class="description">EcoSpark is consist of built in error and hardware failure detection system that notifies the user beforehand which results in faster error resolution.</div></div>
-                  </hv-charging-benefit>
+                  </jouls-better>
     </div>
 
     <div class="col-md-6  asda">
 
-    <hv-charging-benefit>
+    <jouls-better>
       <div class="charger-feature">
         <div class="row no-gutters">
           <div class="col-auto icon-wrapper">
-            <MdOutlineTimer style={{fontSize:'80px'}}> </MdOutlineTimer>
+            <MdOutlineTimer style={{fontSize:'px'}}> </MdOutlineTimer>
               </div>
               <div class="col-auto content">
                 <div class="split-headline">
@@ -136,13 +168,13 @@ function home() {
                   </div>
                   <div class="description">Save more by charging with TOD tariff, Just plug in the charger & schedule the time with schedule mode in the app and our charger will take care of charging at low cost tariff.</div>
                   </div>
-                  </hv-charging-benefit>
+                  </jouls-better>
 
-                  <hv-charging-benefit>
+                  <jouls-better>
       <div class="charger-feature">
         <div class="row no-gutters">
           <div class="col-auto icon-wrapper">
-            <TbHourglassLow style={{fontSize:'80px'}}> </TbHourglassLow>
+            <TbHourglassLow style={{fontSize:'px'}}> </TbHourglassLow>
               </div>
               <div class="col-auto content">
                 <div class="split-headline">
@@ -153,13 +185,13 @@ function home() {
                   </div>
                   <div class="description">Our innovative slow mode is specifically engineered to take care of battery health. It intelligently adjust the charging power according to your battery.</div>
                   </div>
-                  </hv-charging-benefit>
+                  </jouls-better>
 
-                  <hv-charging-benefit>
+                  <jouls-better>
       <div class="charger-feature">
         <div class="row no-gutters">
           <div class="col-auto icon-wrapper">
-            <FaSolarPanel style={{fontSize:'80px'}}> </FaSolarPanel>
+            <FaSolarPanel style={{fontSize:'px'}}> </FaSolarPanel>
               </div>
               <div class="col-auto content">
                 <div class="split-headline">
@@ -170,7 +202,7 @@ function home() {
                   </div>
                   <div class="description">A step towards sustainable world, Charge you car with Solar power. EcoSpark is compatible for solar charging and can be easily integrated with all solar panels.</div>
                   </div>
-                  </hv-charging-benefit>
+                  </jouls-better>
 
       </div>
     </div>
