@@ -103,9 +103,10 @@ const contact = () => {
           <div className="photo6 col-md-4">
             <img src={photo5} alt="" />
           </div>
+          <div className="d-flex justify-content-center col-md-4">
           <div className="button2">
             <button className="btn btn-success">View open roles</button>
-          </div>
+          </div> </div>
           <div className="photo7 col-md-4">
             <img src={photo6} alt="" />
           </div>
