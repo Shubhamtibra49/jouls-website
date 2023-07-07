@@ -5,19 +5,19 @@ import hometop from "./hometop.mp4"
 import Pdf from '../document/home.pdf';
 import {FaSolarPanel } from "react-icons/fa";
 import { TfiMobile } from "react-icons/tfi";
-
 import { MdOutlineTimer } from "react-icons/md";
 import { TbBatteryCharging2 } from "react-icons/tb";
- import { TbHourglassLow } from "react-icons/tb";
- import { BiSupport } from "react-icons/bi";
- import groupm from "./groupm.png"
- import playstore from "./playstore.png"
- import qrcode from "./qrcode.png"
+import { TbHourglassLow } from "react-icons/tb";
+import { BiSupport } from "react-icons/bi";
+import groupm from "./groupm.png"
+import playstore from "./playstore.png"
+import specs from "./Specification.png"
+import qrcode from "./qrcode.png"
 
 function home() {
   return (
     <>
-    <div  className="topbg">
+    <div  className="">
     <video autoPlay loop muted className="topbg"><source src={hometop} type="video/mp4" /> </video>
 
 </div>
@@ -41,14 +41,9 @@ function home() {
     <form className="d-flex justify-content-around" role="button" style={{ marginTop:'70px'}}>
              
     
-              <a href = {Pdf} target = "_blank" button className="btn btn-outline-success " type="submit" style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'px'}}>
+              <a href = {Pdf} target = "_blank" rel="noreferrer" button className="btn btn-outline-success " type="submit" style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'px'}}>
                 Brochure
               </a>
-
-              {/* <a href = {Pdf} target = "_blank" button className="btn btn-outline-success " type="submit" style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'px'}}>
-                Specifications
-              </a> */}
-
               
 <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModalCenter"   style={{borderRadius:'35px', width:'160px',height:'40px',fontSize:'18px', marginLeft:'px'}}>
 Specifications
@@ -65,7 +60,7 @@ Specifications
         </button>
       </div>
       <div class="modal-body">
-      <img src={groupm} alt="Bootstrap" width="100%" height="auto"/>
+      <img src={specs} alt="Bootstrap" width="100%" height="auto"/>
       </div>
       <div class="modal-footer">
        

@@ -3,8 +3,6 @@
   width: 100%;
   height: auto;
   border-radius: 20px;
-  /* margin-right:125px; */
-
 }
 
 .image-container2 img {
@@ -12,127 +10,20 @@
   width: 100%;
   height: auto;
   border-radius: 20px;
-  /* margin-right:125px; */
-
-}
-
-@media only screen and (max-width:320px) {
-  .photo {
-
-    width: 250px;
-    height: 200px;
-    margin-left: 35px;
-
-  }
-
-  .springpic1 {
-
-    /* width: 200px;
-    height: 160px;
-    margin-left: 40px;
-    margin-top: 50px; */
-    display: none;
-  }
-
-  .overlay-card {
-
-    position: absolute;
-    top: 320%;
-    left: 45%;
-    transform: translate(-40%, -90%);
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 12px;
-    content: "";
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    color: #fff;
-
-  }
-
-  .card2 {
-    position: absolute;
-    top: 440%;
-    left: 45%;
-    transform: translate(-40%, -110%);
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: rgba(0, 0, 0, 0.6);
-    /* Adjust the alpha value (0.5) to control transparency */
-    padding: 20px;
-    color: #fff;
-  }
-
-  .image-container img {
-    margin-left: 15px;
-  }
-
-  .image-container2 img {
-    margin-left: 15px;
-
-  }
-
-  .text6 {
-    font-size: 30px;
-    margin-left: 35px;
-  }
-
-  .button2 {
-    padding-left: 80px;
-  }
-
-  /* .bkl{
-        margin-left: px;
-      } */
-  .photo6 {
-    display: none;
-  }
-
-  .bheem {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .card5 {
-    margin-left: 10px;
-    /* margin-right: 50px; */
-  }
-
-  .heading {
-    font-size: 1.5em;
-  }
-
-  .photo4 {
-    margin-top: 12px;
-  }
 }
 
 
 
-
-
-@media (min-width:321px) and (max-width: 768px) {
+@media (max-width: 767px) {
 
 
   .photo {
-
     width: 340px;
     height: 238px;
     margin-left: 15px;
-
   }
 
   .springpic1 {
-
-    /* width: 200px;
-    height: 160px;
-    margin-left: 140px;
-    margin-top: 50px; */
     display: none;
   }
 
@@ -161,15 +52,9 @@
     margin-right: 50px;
   }
 
-  /* .card3{
-    margin-right:25px;
-  } */
-  /* .card4{
-    margin-right:250px;
-  } */
   .card5 {
-    width: 250px;
-    margin-left: 65px;
+    width: 82%;
+    margin-left: 50px;
   }
 
   .subhead1 {
@@ -177,25 +62,22 @@
     margin-left: 30px;
   }
 
-  /* .happy{
-    margin-top: 80px;
-    margin-left: 90px;
-
+  .image-container {
+    position: relative;
+    display: inline-block;
   }
-  .happy1{
-    margin-left: 75px;
 
+  .image-container2 {
+    position: relative;
+    display: inline-block;
   }
-  .happy2{
-    margin-left: 72px;
 
-  } */
   .overlay-card {
 
     position: absolute;
-    top: 320%;
-    left: 45%;
-    transform: translate(-40%, -40%);
+    top: 40%;
+    left: 35%;
+    transform: translate(-20%, -40%);
     background-color: white;
     padding: 20px;
     text-align: center;
@@ -210,45 +92,38 @@
 
   .card2 {
     position: absolute;
-    top: 440%;
-    left: 45%;
-    transform: translate(-40%, -50%);
+    top: 50%;
+    left: 35%;
+    transform: translate(-20%, -50%);
     background-color: white;
     padding: 20px;
     text-align: center;
     border: 1px solid black;
     border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.6);
-    /* Adjust the alpha value (0.5) to control transparency */
     padding: 20px;
     color: #fff;
   }
 
-  /* .sad{
-    margin-left: 100px;
-
+  .happy{
+  font-size: large;
   }
-  .sad1{
-    margin-left: 50px;
 
-  } */
+  .happy1{
+    font-size: small;
+  }
+
   .teamchodu {
     margin-top: 30px;
-    /* margin-left: 10px; */
   }
-
-  .photo6 {
-    display: none;
-
-  }
+  .last{
+    background-color: #3BC227;
+    border-radius: 10px;
+    }
 
   .text6 {
     font-size: 40px;
     margin-left: 25px;
-  }
-
-  .button2 {
-    padding-left: 80px;
   }
 
   .bkl {
@@ -257,10 +132,12 @@
 
   .image-container img {
     margin-left: 15px;
+    width: 70%;
   }
 
   .image-container2 img {
     margin-left: 15px;
+    width: 70%;
 
   }
 
@@ -268,40 +145,66 @@
     font-size: 1.5em;
   }
 
+.photo4{
+  display: none;
+}
+.photo5{
+  display: none;
+}
+.photo6{
+  display: none;
+}
+.photo7{
+  display: none;
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+
+  .card5{
+    width: 87%;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-container2 {
+    position: relative;
+    display: inline-block;
+  }
+
   .overlay-card {
 
     position: absolute;
-    top: 320%;
-    left: 45%;
-    transform: translate(-40%, -270%);
+    top: 20%;
+    left: 35%;
+    transform: translate(-20%, -0%);
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     border: 1px solid black;
     border-radius: 12px;
     content: "";
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
     color: #fff;
-
+    padding-bottom: 10px;
   }
 
   .card2 {
     position: absolute;
-    top: 440%;
-    left: 45%;
-    transform: translate(-40%, -300%);
+    top: 20%;
+    left: 35%;
+    transform: translate(-20%, -00%);
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     border: 1px solid black;
     border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.6);
     /* Adjust the alpha value (0.5) to control transparency */
-    padding: 20px;
     color: #fff;
   }
 
@@ -310,18 +213,16 @@
     margin-left: 5px;
   }
 
-  .button2{
-    padding-left: 270px;
-  }
-  /* .bkl{
-    margin-left: 183px;
-  } */
   .image-container img {
     margin-left: 15px;
+    width: 50%;
   }
 
   .image-container2 img {
     margin-left: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 
   }
 
@@ -329,14 +230,19 @@
     font-size: 1.5em;
   }
 
-  /* .photo5{
-    display: none;
-  } */
+  
   .photo7 {
     display: none;
   }
+
+  .happy{
+    font-size: larger;
+  }
+  .happy1{
+    font-size: small;
+  }
 }
-@media (min-width: 769px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px){
   .heading {
     font-size: 3.3em;
   }
@@ -357,48 +263,59 @@
   .photo {
     width: 350px;
     height: 250px;
-    margin-Left: 140px;
+    margin-Left: px;
   }
   .pic1{
     padding-right: 25px;
 
   }
 
+  .card5 {
+    width: 18rem;
+    margin-left: 115px;
+  }
 .springpic1 {
     display: none;
   }
-  /* .subphoto {
+
+  .image-container {
     position: relative;
-    z-index: 54;
-  } */
+    display: inline-block;
+  }
+
+  .image-container2 {
+    position: relative;
+    display: inline-block;
+  }
   .overlay-card {
 
     position: absolute;
-    top: 340%;
-    left: 45%;
-    transform: translate(-40%, -270%);
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -0%);
     background-color: white;
     padding: 20px;
     text-align: center;
     border: 1px solid black;
     border-radius: 12px;
     content: "";
-   
-
+   padding-top: 10px;
+   padding-bottom: 10px;
   }
 
   .card2 {
     position: absolute;
-    top: 450%;
-    left: 45%;
-    transform: translate(-40%, -300%);
+    top: 50%;
+    left: 0%;
+    transform: translate(25%, -00%);
     background-color: white;
     padding: 20px;
     text-align: center;
     border: 1px solid black;
     border-radius: 12px;
-   
-  }
+    padding-top: 10px;
+   padding-bottom: 10px;
+   }
 
   .text6 {
     font-size: 28px;
@@ -407,28 +324,19 @@
   .teamchodu {
     margin-top: 90px;
   }
-
-  .button2{
-    padding-left: 150px;
-  }
-  /* .bkl{
-    margin-left: 183px;
-  } */
+ 
   .image-container img {
-    width: 80%;
+    width: 60%;
   height: auto;
-    margin-left: 15px;
+    margin-left: 50px;
   }
   .image-container2 img {
-    width: 80%;
-  height: auto;
+    width: 60%;
+    height: auto;
     margin-left: 15px;
-  }
+  } 
 
-  .image-container2 img {
-    margin-left: 15px;
-
-  }
+ 
   .bheem {
     margin-left: 50px;
     margin-right: 50px;
@@ -438,9 +346,6 @@
     font-size: 1.5em;
   }
 
-  /* .photo5{
-    display: none;
-  } */
   .photo7 {
     display: none;
   }
@@ -463,8 +368,7 @@
   .subhead1 {
     font-size: 4.5rem;
     margin-left: 70px;
-
-  }
+ }
 
   .subphoto {
     border-radius: 12px;
@@ -474,10 +378,6 @@
     position: relative;
     z-index: 54;
   }
-
-  /* .subcard{
-z-index:50;
-} */
 
   .image-container {
     position: relative;
@@ -494,7 +394,7 @@ z-index:50;
     position: absolute;
     top: 50%;
     left: 40%;
-    transform: translate(-30%, -50%);
+    transform: translate(-70%, -50%);
     background-color: white;
     padding: 20px;
     text-align: center;
@@ -516,9 +416,7 @@ z-index:50;
 
   .overlay-card h2 {
     font-size: 24px;
-    /* background: url(50%-transparent-white.png); */
-
-    /* margin-bottom: 10px; */
+   
   }
 
   .overlay-card p {
@@ -527,15 +425,15 @@ z-index:50;
   }
 
   .image-container img {
-    width: 350px;
-    margin-left: 350px;
-
+    width: 60%;
+    margin-left: 150px;
+    height: 80%;
   }
 
   .image-container2 img {
-    width: 350px;
+    width: 60%;
     margin-left: 100px;
-
+    height: 80%;
   }
 
 
@@ -551,43 +449,34 @@ z-index:50;
   }
 
   .card5 {
-    margin-left: 225px;
+    margin-left: 212px;
     padding: 10px;
     width: 18rem;
     height: 180px;
   }
 
   .springpic1 {
-    height: 300px;
-    width: 400px;
-    ;
-    margin-left: 500px;
-
-
-  }
+    height: 70%;
+    width: 70%;
+    margin-left: px;
+   }
 
   .photo4 {
     padding-left: 90px;
-
   }
 
-  .photo5 {
-    padding-left: 160px;
-
-
-  }
+ 
 
   .text6 {
-    font-size: 60px;
+    font-size: 43px;
 
   }
 
-
-/* 
-  .button2 {
-    padding-left: 540px;
-
-  } */
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .trial {
     font-size: 20px;
@@ -595,9 +484,9 @@ z-index:50;
   }
 
   .photo {
-    width: 500px;
-    height: 400px;
-    margin-Left: 290px;
+    width: 80%;
+    height: 90%;
+    margin-Left: 0px;
   }
 
   .teamchodu {

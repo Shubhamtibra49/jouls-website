@@ -1,6 +1,6 @@
 import './Model3.css'
-import Member1 from './msme.jpeg';
-import Member2 from './rrecl.jpeg';
+import Member1 from './aman1.jpeg';
+import Member2 from './Chandni.jpg';
 import Member3 from './patentimage.jpeg';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -13,25 +13,25 @@ export default function Model3() {
         <div className="divider"></div>
         <div className="members">
           <div className="member">
-            <img width={250} height={250} src={Member1}/>
+            <img src={Member1}/>
             <div className="description">
-                <h1>A</h1>
-                <h2>CEO</h2>
+                <h1>Aman Goyal</h1>
+                <h2>Director</h2>
                 <p>
                
                 </p>
                 <div className="social-media">
-                  <InstagramIcon />
+                  {/* <InstagramIcon /> */}
                   <LinkedInIcon />
-                  <PinterestIcon />
+                  {/* <PinterestIcon /> */}
                 </div>
             </div>
           </div>
           <div className="member">
             <img width={200} height={200} src={Member2}/>
-            <div className="description" style={{paddingTop:'45px'}} >
-                <h1>B</h1>
-                <h2>CEO</h2>
+            <div className="description" style={{paddingTop:'px'}} >
+                <h1>Chandni Gupta</h1>
+                <h2>Director</h2>
                 <p>
                
                 </p>

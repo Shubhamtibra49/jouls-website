@@ -1,11 +1,15 @@
 import React from 'react';
 import logo from './jouls3.png';
 import "./header.css"
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
+import { Link ,useLocation} from 'react-router-dom'
 const Navbar = () => {
+  let location = useLocation();
+  console.log(location.pathname);
+ 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-white" >
+      <nav className="navbar navbar-expand-sm bg-body-white "  style={location.pathname === "/Blogs" ? {backgroundColor:"#E8EAEC"} : {backgroundColor:"white"}} >
         <div className="container-fluid"   >
           <nav className="navbar bg-body-white">
             <div className="container">
@@ -50,12 +54,12 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item nav-item-text"  style={{ color: 'green', textAlign: 'center' }}href="#">
+                    <a className="dropdown-item nav-item-text"  style={{ color: 'green', textAlign: 'center' }} href="https://forms.gle/8EFtPX69w4Y8stuY9" target = "_blank" rel="noreferrer"> 
                       Review of 4W Charger
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item nav-item-text" style={{ color: 'green', textAlign: 'center' }} href="#">
+                    <a className="dropdown-item nav-item-text" style={{ color: 'green', textAlign: 'center' }} href="https://forms.gle/13kc3pxuP1CSHoGb8"  target = "_blank" rel="noreferrer">
                     Review of 2W Charger
                     </a>
                   </li>

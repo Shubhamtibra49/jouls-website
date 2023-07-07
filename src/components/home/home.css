@@ -114,6 +114,19 @@ height: 250px;
 
  @media (max-width: 420px) {
 
+  .topbg {
+   
+    /* background-image: url("t.jpeg");  */
+    max-width: 100%;
+    height: auto;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 90%; */
+    
+  }
+
   .content{
     margin-left: 0px;
   }
@@ -131,3 +144,20 @@ height: 250px;
     font-size: 48px;
   }
  }
+
+ 
+ @media (max-width: 1024px) {
+
+  .topbg {
+   
+    /* background-image: url("t.jpeg");  */
+    max-width: 100%;
+    height: auto;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 90%; */
+    
+  }
+}

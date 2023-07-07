@@ -10,5 +10,9 @@
 }
 
 .navbar-nav .nav-link {
-  padding: 0.5rem 1rem;
+  padding: 0rem 0rem;
+}
+
+.navbar{
+  padding-bottom: 0px;
 }

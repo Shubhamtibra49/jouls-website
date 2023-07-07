@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import photo7 from "./star.jpeg";
 import photo8 from "./dust.jpeg";
-import { BsArrowUpRight } from "react-icons/bs";
-import { BsCircleHalf } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import pizza from './highway.jpeg';
 import './carousel.css'

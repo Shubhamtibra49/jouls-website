@@ -17,7 +17,7 @@ const contact = () => {
             Have a specific inquiry? Here's a few ways you can get in touch with us.
           </p>
         </div>
-        <div className="pic1 col-md-6 ">
+        <div className="pic1 col-md-6 d-flex justify-content-center">
           <img src={photo} className="photo" alt="" />
         </div>
       </div>
@@ -37,7 +37,7 @@ const contact = () => {
         </div>
         <div className="card4 col-md-4 mt-4 shadow border-0">
           <h5 className="fw-bolder my-2">Contact sales</h5>
-          <h3 style={{ color: '#353535', fontFamily: 'poppins', fontStyle: 'normal', fontWeight: '500', fontSize: '14px', lineHeight: '21px' }}>
+          <h3>
             Interested in EcoSpark? Or want to know more about Jouls? Contact:-
           </h3>
           <h3 className="text-success">+916377650430</h3>
@@ -45,22 +45,26 @@ const contact = () => {
         </div>
       </div>
 
-      <div className="dholu container row d-flex">
+      <div className="container row d-flex">
         <div className="card5 col-md-6 mt-5 shadow border-0">
           <h5 className="fw-bolder my-3">General Inquires</h5>
           <h3>Need to get in touch with the team about company and products? We're all ears at</h3>
           <h3 className="text-success">amangoyal6377@gmail.com</h3>
         </div>
-        <div className="springpic col-md-6">
+        <div className=" col-md-6 d-flex justify-content-center align-items-center">
           <img src={photo3} className="springpic1" alt="" />
         </div>
       </div>
 
-      <div className="row container mt-5" style={{fontsize:'10px'}}>
-        <div className="col-md-6">
+      <div className=" container mt-5" style={{fontsize:'10px'}}>
+        <div className="d-flex justify-content-center">
           <p className="subhead1 fw-bolder">Where we work</p>
         </div>
-
+        </div>
+        <div className="row container mt-5" style={{fontsize:'10px'}}>
+        <div className="col-md-6">
+        </div>
+        
         <div className="col-md-6 image-container">
           <img src={photo1} alt="Background Image" />
           <div className="overlay-card">
@@ -69,7 +73,7 @@ const contact = () => {
             <p className="happy2 text-success">+91 6377 650 430</p>
           </div>
         </div>
-      </div>
+        </div>
 
       <div className="row container mt-5">
         <div className="col-md-6 image-container2">
@@ -82,35 +86,44 @@ const contact = () => {
         <div className="col-md-6"></div>
       </div>
 
-      <div className="teamchodu container">
+<div className='last'>
+<div className="teamchodu  container">
         <div className="container row d-flex">
           <div className="photo4 col-md-4">
             <img src={photo4} alt="" />
           </div>
           <div className="col-md-4">
+            <div class="d-flex justify-content-center">
             <p className="text6 fw-bolder">Join our team</p>
           </div>
+          </div>
           <div className="photo5 col-md-4">
+          <div class="d-flex justify-content-center">
             <img src={photo5} alt="" />
+          </div>
           </div>
         </div>
 
         <div className="text-center">
-          <p className="foxy9 fw-bolder">We always looking for rockstars to join our team. Think you'd be a good fit?</p>
+          <p className="foxy9 ">We always looking for rockstars to join our team. Think you'd be a good fit?</p>
         </div>
 
-        <div className="container row d-flex">
+        <div className="bkl container row d-flex">
           <div className="photo6 col-md-4">
+
             <img src={photo5} alt="" />
+         
           </div>
-          <div className="d-flex justify-content-center col-md-4">
-          <div className="button2">
+          <div className="button2 col-md-4 ">
+            <div class="d-flex justify-content-center">
             <button className="btn btn-success">View open roles</button>
-          </div> </div>
+          </div>
+          </div>
           <div className="photo7 col-md-4">
             <img src={photo6} alt="" />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
