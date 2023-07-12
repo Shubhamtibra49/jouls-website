@@ -50,7 +50,7 @@
 
 #model3 .description h1
 {
-    color: rgba(8,61,119);
+    color: black;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@
 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: #F21B3F;
+    color: black;
     font-weight: 600;
     font-size: 18px;
 }

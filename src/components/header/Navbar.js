@@ -9,7 +9,7 @@ const Navbar = () => {
  
   return (
     <div>
-      <nav className="navbar navbar-expand-sm bg-body-white "  style={location.pathname === "/Blogs" ? {backgroundColor:"#E8EAEC"} : {backgroundColor:"white"}} >
+      <nav className="navbar navbar-expand-sm bg-body-white "  style={location.pathname === "/Blogs" ? {backgroundColor:"#E8EAEC"} : {backgroundColor:"white"} } >
         <div className="container-fluid"   >
           <nav className="navbar bg-body-white">
             <div className="container">

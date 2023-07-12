@@ -15,6 +15,7 @@ import specs from "./Specification.png"
 import qrcode from "./qrcode.png"
 
 function home() {
+
   return (
     <>
     <div  className="">
@@ -93,7 +94,7 @@ Specifications
     <div class=" row no-gutters justify-content-between asda">
       
       
-    <div class="col-md-6  align-self-start">
+    <div class="col-md-6  align-self-start d-grid justify-content-center">
 
     <jouls-better class="">
       <div class="charger-feature">
@@ -146,7 +147,7 @@ Specifications
                   </jouls-better>
     </div>
 
-    <div class="col-md-6  asda">
+    <div class="col-md-6  d-grid justify-content-center">
 
     <jouls-better>
       <div class="charger-feature">
@@ -228,9 +229,9 @@ Specifications
 <div class="d-flex justify-content-center " style={{  fontWeight:"bold",fontSize:"40px",marginTop:'30px', marginLeft:'10px',marginBottom:'40px', color:'#000' }}>
   <p  style={{fontSize:"17px", fontWeight:'lighter'}}>Introducing Jouls Connect, the state-of-the-art EV charging app designed to provide a seamless user experience with its exceptional user interface. Jouls Connect offers a host of features and functionalities that make it an ideal companion for electric vehicle owners.</p>
 </div>
-<div  class="d-flex justify-content-around">
-  <img src={playstore} alt="" width="30%" height="25%" style={{marginTop:"30px"}} />
-  <img src={qrcode} alt="" width="22%" height="22%" />
+<div class="d-flex justify-content-around ">
+    <a class="linkbox" href="https://play.google.com/store/apps/details?id=com.Jouls"><img src={playstore} alt="" width="55%" height="45%" style={{marginTop:"30px"}} /></a>
+  <img src={qrcode} alt="" width="23%" height="23%" />
 </div>
 <div >
   

@@ -9,7 +9,6 @@ import prto from './prto.jpeg'
 import vector from './Vector.png'
 import mission from './mission1.png'
 import techkriti from './techkriti.jpg'
-import Aman from './aman.jpg'
 import Model3 from './Model3';
 const about = () => {
   return (

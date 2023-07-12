@@ -100,8 +100,8 @@ const downloadapp = () => {
       <p  style={{fontSize:"17px", fontWeight:'lighter'}}>Introducing Jouls Connect, the state-of-the-art EV charging app designed to provide a seamless user experience with its exceptional user interface. Jouls Connect offers a host of features and functionalities that make it an ideal companion for electric vehicle owners.</p>
     </div>
     <div class="d-flex justify-content-around">
-  <img src={playstore} alt="" width="30%" height="25%" style={{marginTop:"30px"}} />
-  <img src={qrcode} alt="" width="25%" height="25%" />
+    <a href="https://play.google.com/store/apps/details?id=com.Jouls"><img src={playstore} alt="" width="50%" height="50%" style={{marginTop:"30px"}} /></a>
+  <img src={qrcode} alt="" width="28%" height="28%" />
 </div>
    
     </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import photo7 from "./star.jpeg";
 import photo8 from "./dust.jpeg";
 import { useNavigate } from "react-router-dom";
-import pizza from './highway.jpeg';
+import highway from './Highway.jpg';
 import './carousel.css'
 const Carousel = () => {
   const [activeCard, setActiveCard] = useState(0);
@@ -65,11 +65,11 @@ const Carousel = () => {
         <div className={`carousel-item   ${activeCard === 0 ? "active" : ""}`}>
           <div class=" dsa shadow card " style={{ maxWidth: "40rem" }}>
            
-            <img src={pizza} class="card-img-top" alt="..." />
+            <img src={highway}  alt="..." />
             <div class=" card-body ">
-              <h5 class="card-title d-flex justify-content-between">
+              <h4 class="card-title d-flex justify-content-between">
               Electric vehicles: An on-ramp to sustainable mobility
-              </h5>
+              </h4>
           
               <p class="card-text">
               Zero-emissions goals and technology advancements drive automakers and consumers to accelerate the shift to EVs.
@@ -82,68 +82,39 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className={`carousel-item ${activeCard === 1 ? "active" : ""}`}>
             <div class=" dsa shadow card " style={{ maxWidth: "40rem" }}>
-              <img src={photo8} class="card-img-top" alt="..." />
+              <img src={photo8} class="carosuelimage" alt="..." />
               <div class=" card-body ">
-                <h5 class="card-title d-flex justify-content-between">
-                Electric vehicles: Powering the future of sustainable mobility in India’s business ecosystem
-                </h5>
+                <h4 class="card-title d-flex justify-content-between">
+                Electric vehicles: Powering the future of sustainable mobility in business ecosystem
+                </h4>
                 <p class="card-text">
                 The world is getting urbanised at a rampant pace, with the global urban population estimated to grow by 65 million annually. 
                 </p>
                 <a href="
                   https://timesofindia.indiatimes.com/blogs/voices/electric-vehicles-powering-the-future-of-sustainable-mobility-in-indias-business-ecosystem/">Read more</a>
-                {/* <p class="card-text d-flex justify-content-start ">
-                  <BsCircleHalf fontSize={"30px"} />{" "}
-                  <div className="container"> </div>
-                </p> */}
+               
               </div>
             </div>
           </div>
           <div className="carousel-inner">
           <div className={`carousel-item ${activeCard === 2 ? "active" : ""}`}>
             <div class=" dsa shadow card " style={{ maxWidth: "40rem" }}>
-              <img src={photo7} class="card-img-top" alt="..." />
+              <img src={photo7}  alt="..." />
               <div class=" card-body ">
-                <h5 class="card-title d-flex justify-content-between">
+                <h4 class="card-title d-flex justify-content-between">
                 Role of EVs in India’s Sustainable Mobility Journey
-                </h5>
+                </h4>
                 <p class="card-text">
                 Over the last 2 years, the sale of electric vehicles has picked up pace in India, with this year’s sale already surpassing that of last year’s by over 80%. 
                 </p>
                 <a href="https://www.financialexpress.com/express-mobility/role-of-evs-in-indias-sustainable-mobility-journey/2661369/">Read more</a>
-                {/* <p class="card-text d-flex justify-content-start ">
-                  <BsCircleHalf fontSize={"30px"} />{" "}
-                  <div className="container">aayush gupta </div>
-                </p> */}
+              
               </div>
             </div>
           </div>
         </div>
         </div>
-        {/* <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button> */}
-        {/* <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span               
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button> */}
+        
       </div>
     </div>
   );

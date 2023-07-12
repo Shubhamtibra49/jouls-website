@@ -1,16 +1,16 @@
   .bcolor{
     background-color: #E8EAEC;
-   
+    
   }
 
   .header {
-    /* background-image: linear-gradient(120deg, #3e32a8, #e310c7); */
+    
     background: linear-gradient(223deg, #062A89 0%, rgba(106, 12, 121, 0.60) 100%);
     padding: 2rem;
     border-radius: 25px;
-    margin-top: 0;
+    margin-top:0px;
     margin-bottom: 2rem;
-  }
+    }
   
   .headerTitleLg {
   
@@ -27,7 +27,14 @@
   .cardsize{
     max-width: 90%;
   }
+
+  /* .rightcardbox{
+    height: 42%;
+  } */
   
+  /* .leftbox{
+    height: 60%;
+  } */
   
   @media (max-width: 768px) {
     .header {

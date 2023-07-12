@@ -357,6 +357,9 @@
 }
 @media (min-width: 1025px) and (max-width: 2720px) {
 
+  .cutop{
+    margin-top: 40px;
+  }
   .heading {
     font-size: 3.3em;
   }
@@ -439,7 +442,8 @@
 
   .card3 {
     margin-left: 60px;
-    width: 18rem;
+    width: 20rem;
+    height: 12rem;
 
   }
 
@@ -480,11 +484,12 @@
 
   .trial {
     font-size: 20px;
-    padding-left: 100px;
+    padding-left: 60px;
+    padding-top: 70px;
   }
 
   .photo {
-    width: 80%;
+    width: 90%;
     height: 90%;
     margin-Left: 0px;
   }

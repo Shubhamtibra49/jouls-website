@@ -10,7 +10,8 @@ import photo6 from './Ellipse7.jpeg';
 const contact = () => {
   return (
     <div>
-      <div className="row container">
+      <div className=" container cutop">
+      <div className="row ">
         <div className="trial col-md-6">
           <p className="heading fw-bolder">Get in touch</p>
           <p className="content fw-bolder">
@@ -21,9 +22,11 @@ const contact = () => {
           <img src={photo} className="photo" alt="" />
         </div>
       </div>
+      </div>
 
-      <div className="bheem Container row d-flex mt-4">
-        <div className="card3 col-md-4 mt-4 shadow border-0">
+      <div className="bheem Container  d-flex mt-4">
+      <div className="row ">
+        <div className="card3 col-md-3 mt-4 shadow border-0">
           <h5 className="fw-bolder my-2">Contact Support</h5>
           <h3>Our support team typically responds within a few minutes.</h3>
           <button type="button" className="btn btn-success my-3">
@@ -35,7 +38,7 @@ const contact = () => {
             </a>
           </button>
         </div>
-        <div className="card4 col-md-4 mt-4 shadow border-0">
+        <div className="card4 col-md-3 mt-4 shadow border-0 ">
           <h5 className="fw-bolder my-2">Contact sales</h5>
           <h3>
             Interested in EcoSpark? Or want to know more about Jouls? Contact:-
@@ -43,6 +46,7 @@ const contact = () => {
           <h3 className="text-success">+916377650430</h3>
           <h3 style={{ color: '#353535' }}>Mon to Sat: 9AM - 8PM IST</h3>
         </div>
+      </div>
       </div>
 
       <div className="container row d-flex">
