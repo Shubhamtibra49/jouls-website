@@ -69,7 +69,7 @@ const downloadapp = () => {
       <div class="col-md-6" style={{padding:'0px'}}>
     <div className="container">
     <div class="d-flex justify-content-center " style={{fontSize:"  14px", marginTop:"35px" }}>
-     <img src={mobile} alt="Bootstrap" width="80%" height="auto"/>
+     <img src={mobile} alt="Jouls App" width="80%" height="auto"/>
     </div>
     {/* <img src={mission} style={{width:'70%'}} alt="" /> */}
     </div>
@@ -81,7 +81,7 @@ const downloadapp = () => {
       <div class="col-md-6">
       <div className="container">
       <div class="d-flex justify-content-center " style={{fontSize:"  14px", marginTop:"0px"}}>
-      <img src={groupm} alt="Bootstrap" width="90%" height="auto"/>
+      <img src={groupm} alt="Jouls connect mobile ev chargin app" width="90%" height="auto"/>
      
     </div>
     </div>
@@ -101,7 +101,7 @@ const downloadapp = () => {
     </div>
     <div class="d-flex justify-content-around">
     <a href="https://play.google.com/store/apps/details?id=com.Jouls"><img src={playstore} alt="" width="50%" height="50%" style={{marginTop:"30px"}} /></a>
-  <img src={qrcode} alt="" width="28%" height="28%" />
+  <img src={qrcode} alt="Jouls app qr code" width="28%" height="28%" />
 </div>
    
     </div>

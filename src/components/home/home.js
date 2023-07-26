@@ -19,7 +19,7 @@ function home() {
   return (
     <>
     <div  className="">
-    <video autoPlay loop muted className="topbg"><source src={hometop} type="video/mp4" /> </video>
+    <video autoPlay loop muted className="topbg"><source src={hometop} alt="Jouls" type="video/mp4" /> </video>
 
 </div>
 
@@ -61,7 +61,7 @@ Specifications
         </button>
       </div>
       <div class="modal-body">
-      <img src={specs} alt="Bootstrap" width="100%" height="auto"/>
+      <img src={specs} alt="Jouls Charger Specifications" width="100%" height="auto"/>
       </div>
       <div class="modal-footer">
        
@@ -82,7 +82,7 @@ Specifications
     <div className="container">
     <div class="d-flex justify-content-center " style={{marginTop:"20px",fontSize:"  14px"}}>
    
-     <video autoPlay loop muted className="bg-vid"><source src={threedvideo} type="video/mp4" /> </video>
+     <video autoPlay loop muted className="bg-vid"><source src={threedvideo} alt="Jouls Charger" type="video/mp4" /> </video>
     </div>
     </div>
     </div>
@@ -210,7 +210,7 @@ Specifications
   <div class="col-md-5">
   <div className="container">
   <div class="d-flex justify-content-center " style={{fontSize:"  14px", marginTop:"85px"}}>
-  <img src={groupm} alt="Bootstrap" width="80%" height="auto"/>
+  <img src={groupm} alt="Jouls Connect Mobile App" width="80%" height="auto"/>
  
 </div>
 </div>
@@ -231,7 +231,7 @@ Specifications
 </div>
 <div class="d-flex justify-content-around ">
     <a class="linkbox" href="https://play.google.com/store/apps/details?id=com.Jouls"><img src={playstore} alt="" width="55%" height="45%" style={{marginTop:"30px"}} /></a>
-  <img src={qrcode} alt="" width="23%" height="23%" />
+  <img src={qrcode} alt="Jouls qr code" width="23%" height="23%" />
 </div>
 <div >
   

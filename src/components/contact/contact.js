@@ -24,7 +24,7 @@ const contact = () => {
       </div>
       </div>
 
-      <div className="bheem Container  d-flex mt-4">
+      <div className="threecards Container  d-flex mt-4">
       <div className="row ">
         <div className="card3 col-md-3 mt-4 shadow border-0">
           <h5 className="fw-bolder my-2">Contact Support</h5>

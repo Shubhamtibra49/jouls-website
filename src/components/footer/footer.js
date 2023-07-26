@@ -12,7 +12,7 @@ const footer = () => {
       <div class="col-md-3">
       <div class="column" style={{padding:'0px'}}>
         <div class="logo-container">
-          <img src={logo} alt="Logo" width='100%'/>
+          <img src={logo} alt="JOULS Logo" width='100%'/>
         </div>
         </div>   
       </div>
@@ -31,7 +31,7 @@ const footer = () => {
       <div class="column">
         <h2 style={{paddingBottom:"12px",textAlign:"center"}}>Follow Us</h2>
         <div class="social-icons">
-          <a href="https://instagram.com/jouls.ecotech?igshid=MzRlODBiNWFlZA=="  target = "_blank" rel="noreferrer"><i class="fab fa-instagram" style={{color:"#118615" ,padding:"0 7px"}}></i></a>
+          <a href="https://www.instagram.com/jouls.ecotech/"  target = "_blank" rel="noreferrer"><i class="fab fa-instagram" style={{color:"#118615" ,padding:"0 7px"}}></i></a>
           <a href="https://www.linkedin.com/company/jouls-ecotech/"  target = "_blank" rel="noreferrer"><i class="fab fa-linkedin"style={{color:"#118615",padding:"0 7px"}}></i></a>
           <a href="#"><i class="fab fa-facebook"style={{color:"#118615",padding:"0 7px"}}/></a>
           <a href="#"><i class="fab fa-twitter"style={{color:"#118615",padding:"0 7px"}}></i></a>

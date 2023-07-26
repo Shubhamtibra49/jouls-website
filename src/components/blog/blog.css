@@ -28,13 +28,7 @@
     max-width: 90%;
   }
 
-  /* .rightcardbox{
-    height: 42%;
-  } */
-  
-  /* .leftbox{
-    height: 60%;
-  } */
+
   
   @media (max-width: 768px) {
     .header {

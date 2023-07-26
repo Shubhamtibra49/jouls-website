@@ -174,7 +174,7 @@ const about = () => {
     <p>
      Won hackathon organised by RRECL. 
     </p>
-    <img src={rrecl} alt="Bootstrap" width="350px" height="220" />
+    <img src={rrecl} alt="Rrecl jouls" width="350px" height="220" />
   </TimelineItem>
   <TimelineItem
     key="003"
@@ -188,7 +188,7 @@ const about = () => {
       Exhibited in MSME VDP, Gurugram.
 
     </p>
-    <img src={msme} alt="Bootstrap" width="350px" height="220" />
+    <img src={msme} alt="msme" width="350px" height="220" />
    
   </TimelineItem>
   <TimelineItem
@@ -201,7 +201,7 @@ const about = () => {
     <p>
       Patent for design and trademark filed.
     </p>
-    <img src={patentimage} alt="Bootstrap" width="350px" height="220" />
+    <img src={patentimage} alt="Jouls" width="350px" height="220" />
   </TimelineItem>
 
   <TimelineItem
@@ -220,7 +220,7 @@ const about = () => {
     <p>
     First working prototype developed.
     </p>
-    <img src={prto} alt="Bootstrap" width="320px" height="220" />
+    <img src={prto} alt="Jouls prototypw" width="320px" height="220" />
   </TimelineItem>
 
   <TimelineItem
@@ -233,7 +233,7 @@ const about = () => {
     <p>
     Second position in Pitch Premier League, Tech Kriti, IIT KANPUR. 
     </p>
-    <img src={techkriti} alt="Bootstrap" width="320px" height="220" />
+    <img src={techkriti} alt="" width="320px" height="220" />
   </TimelineItem>
 </Timeline>
 <Model3/>
